@@ -60,10 +60,48 @@
   color: #091e42;
 }
 
-.canopy {
+.canopy,
+.button-desc {
   list-style: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #344563;
 }
 .work-detail {
-  gap: 20px;
+  gap: 30px;
   list-style: circle;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #6B778C;
+}
+
+.card-text {
+  margin: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.button-desc {
+  gap: 20px;
+}
+
+.button-desc li {
+  background: #EBEBFF;
+  border-radius: 8px;
+  padding: 4px 12px;
+
+}
+
+.work-btn {
+  margin: 20px;
 }

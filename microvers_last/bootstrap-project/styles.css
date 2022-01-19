@@ -40,3 +40,30 @@
   margin: 20px 0 0 70px;
   gap: 10px;
 }
+
+.work-card {
+  width: 80%;
+  margin: 100px auto 0 auto;
+}
+
+.image1 {
+  margin: auto;
+}
+
+.card-title {
+  margin: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.canopy {
+  list-style: none;
+}
+.work-detail {
+  gap: 20px;
+  list-style: circle;
+}

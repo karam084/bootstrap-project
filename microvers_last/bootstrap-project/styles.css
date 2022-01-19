@@ -105,3 +105,21 @@
 .work-btn {
   margin: 20px;
 }
+
+.media_u,
+.lang-img,
+.border-lang,
+.fr-work {
+  list-style: none;
+  gap: 10px;
+}
+
+.more_det1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin: 30px 0 0 20px;
+}

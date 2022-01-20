@@ -47,7 +47,15 @@
 }
 
 .image1 {
-  margin: auto;
+  margin: 15px 0 0 15px;
+  max-width: 110%;
+  height: 90%;
+}
+
+.image2 {
+  margin: 15px 50px 0 0;
+  max-width: 95%;
+  height: 90%;
 }
 
 .card-title {
@@ -78,7 +86,7 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
-  color: #6B778C;
+  color: #6b778c;
 }
 
 .card-text {
@@ -96,10 +104,9 @@
 }
 
 .button-desc li {
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
-
 }
 
 .work-btn {
@@ -123,7 +130,7 @@
   margin: 10px;
 }
 
-.lang-img li img{
+.lang-img li img {
   margin: 30px 0 0 0;
 }
 .more_det1 {
@@ -140,20 +147,27 @@
   margin: 20px 0;
 }
 
+.fas {
+  margin-right: 10px;
+}
+
 .contact-div {
   height: 430px;
   padding: 20px 0 0 0;
-  background-color: #6070FF;
+  background-color: #6070ff;
   border-radius: 70px 0 0 0;
 }
 
-
 .contact-form {
-  background-color: #6070FF;
+  background-color: #6070ff;
   width: 30%;
   margin: 0 auto;
 }
 
 .contact-head {
   text-align: center;
+}
+
+.but-form {
+  margin-left: 30%;
 }

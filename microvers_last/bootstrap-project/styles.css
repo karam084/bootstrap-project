@@ -42,7 +42,7 @@
 }
 
 .work-card {
-  width: 80%;
+  width: 60%;
   margin: 100px auto 0 auto;
 }
 
@@ -106,14 +106,26 @@
   margin: 20px;
 }
 
+.work-card-b {
+  margin: 40px 0 0 0;
+}
+
 .media_u,
 .lang-img,
 .border-lang,
-.fr-work {
+.fr-work,
+.contact-form {
   list-style: none;
   gap: 10px;
 }
 
+.lang-img li {
+  margin: 10px;
+}
+
+.lang-img li img{
+  margin: 30px 0 0 0;
+}
 .more_det1 {
   font-family: Poppins;
   font-style: normal;
@@ -122,4 +134,26 @@
   line-height: 24px;
   color: #7f8cff;
   margin: 30px 0 0 20px;
+}
+
+.fr-work li {
+  margin: 20px 0;
+}
+
+.contact-div {
+  height: 430px;
+  padding: 20px 0 0 0;
+  background-color: #6070FF;
+  border-radius: 70px 0 0 0;
+}
+
+
+.contact-form {
+  background-color: #6070FF;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.contact-head {
+  text-align: center;
 }

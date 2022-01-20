@@ -182,8 +182,8 @@
 </div>
 
 <div class="card mb-3 text-center work-card">
-  <div class="row g-0">
-    <div class="col-md-8">
+  <div class="row">
+    <div class="col-6 work-card-a">
       <div class="card-body">
         <h5 class="card-title text-left">About<br />
           Myself</h5>
@@ -220,7 +220,7 @@
           <button class="btn btn-outline-primary see-project float-left work-btn">See Project</button>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-6 work-card-b">
       <ul class="border-lang text-left">
         <li>
           Langguages<a href="#" rel="noopener noreferrer" class="vector-1"><i class="arrow-down"></i></a>
@@ -228,13 +228,13 @@
       </ul>
       <ul class="row lang-img text-left">
         <li>
-          <a href="#" class="js-icon"><img src="src-image/js-icon.png" alt="js-icon" class="img-ico" /><span>JavaSript</span></a>
+          <a href="#" class="js-icon"><img src="src-image/js-icon.png" alt="js-icon" class="img-ico" /><br> <span>JavaSript</span></a>
         </li>
         <li>
-          <a href="#" class="html-icon"><img src="src-image/html-icon.png" alt="html-icon" class="img-ico" /><span>HTML</span></a>
+          <a href="#" class="html-icon"><img src="src-image/html-icon.png" alt="html-icon" class="img-ico" /><br><span>HTML</span></a>
         </li>
         <li>
-          <a href="#" class="css-icon"><img src="src-image/css-icon.png" alt="css-icon" class="img-ico"/><span>CSS</span></a>
+          <a href="#" class="css-icon"><img src="src-image/css-icon.png" alt="css-icon" class="img-ico"/><br><span>CSS</span></a>
         </li>
       </ul>
       <ul class="fr-work text-left">
@@ -249,22 +249,27 @@
     </div>
   </div>
 </div>
-<form>
-  <div class="mb-3 text-center">
-    <div class="contact-me">Contact Me</div>
-    <div class="form-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it
-      <ul class="contact-form">
-        <li>
-          <input type="text" id="name" name="user_name" maxlength="30" placeholder="Username" required>
-        </li>
-        <li>
-          <input type="email" id="email" name="user_email" placeholder="abc@gmail.com" required>
-        </li>
-        <li>
-          <textarea id="msg" name="user_message" maxlength="500" type="text" placeholder="Write Your Message..." required></textarea>
-        </li>
-          <button class="btn btn-outline-primary see-project work-btn">See Project</button>
-        </ul>
-        </form>
+
+<div class="contact-div">
+   <form class="contact-form text-white">
+    <div class="form-group contact-head">
+      <h4 class="contact-me">Contact Me</h4>
+      <p class="form-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it </p>
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" id="name" name="user_name" maxlength="30" placeholder="Username" required>
+    </div>
+    <div class="form-group">
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+    </div>
+    <div class="form-group">
+      <textarea  class="form-control" id="msg"  maxlength="500" type="text" placeholder="Write Your Message..." required rows="3"></textarea>
+    </div>
+     <div class="form-group">
+      <button class="btn btn-outline-primary see-project bg-light">See Project</button>
+    </div>
+  </form>
+</div>
+
 </body>
 </html>

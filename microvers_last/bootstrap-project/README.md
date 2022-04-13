@@ -1,6 +1,7 @@
 # Portfolio DeskTop version
 
-> This is the personal Portfolio of Karam Fouad - Web Developer updated with bootstrap
+> This is the personal Portfolio of Karam Fouad - Web Developer updated with bootstrap.
+> This project build by HTML, CSS, and Bootstrap
 
 ![Screenshot](https://user-images.githubusercontent.com/77942746/149631583-937bc093-36f8-4672-893a-59a7cba9ab83.png)
 
